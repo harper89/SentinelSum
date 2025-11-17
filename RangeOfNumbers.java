@@ -5,8 +5,7 @@ public class RangeOfNumbers {
       
       System.out.print("Start? ");
       int num1 = scan.nextInt();
-      
-      
+       
       System.out.print("End? ");
       int num2 = scan.nextInt();
       
@@ -16,21 +15,14 @@ public class RangeOfNumbers {
          while (num2>i) {
             i++;
             System.out.print(", " + i);
-
-      }
+         }
       } else {
          while (num2<i) {
-      
-           i--;
-            System.out.print(", " + i);
-      
+            i--;
+            System.out.print(", " + i); 
           }
       }
-   
-     
 
-   
-   
    }
     
 }
